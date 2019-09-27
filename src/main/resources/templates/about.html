@@ -3,21 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <title>Author About Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style>
+    html {
+        background: url("https://res.cloudinary.com/dvunax54a/image/upload/v1569611556/paper-2500942_960_720_khsibm.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .blog{
+        margin: 4em 0;
+        position: relative;
+    }
+    .blog h1{
+        color:#F97300;
+        margin: 2em;
+    }
+    .blog .card{
+        box-shadow: 0 0 20px #ccc;
+    }
+    .blog .card img{
+        width: 100%;
+        height: 12em;
+    }
+    .blog .card-title{
+        color:#F97300;
+
+    }
+    .blog .card-body{
+        padding: 1em;
+    }
+</style>
 </head>
 <body>
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-sm"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg" alt="" style="width:400px;height:300px;"></div>
-        <div class="col-sm">Felix the cat<img src="https://res.cloudinary.com/dvunax54a/image/upload/v1569525211/pexels-photo-326875_b3o1ix.jpg" alt="" style="width:400px;height:300px"></div>
-        <div class="col-sm">Do you have a cat? They are awesome!</div>
 
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="/index">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/boot">About the Java Bootcamp</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/about">About the Author</a>
+    </ul>
+</nav>
+<h1 class="text-center"><b>Meet the Authors!</b></h1>
+<div class="blog">
+    <div class="container">
+<!--        <h1 class="text-center">Blog</h1>-->
+        <div class="row">
+            <div class="col-md-4 col-lg-4 col-sm-12">
+                <div class="card">
+<div class="card-img">
+    <img class="card-img-top" src="https://live.staticflickr.com/1694/25798197945_3edd2e4cea_b.jpg" alt="" >
+    <div class="card-body">
+        <h4 class="card-title">Jane Doe</h4>
+        <p class="card-text">Biography info</p>
     </div>
-    <div class="row">
-        <div class="col-sm"><img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Maltese_puppy.jpeg" style="width:400px;height:300px;"></div>
-        <div class="col-sm dexter">Dexter the dog</div>
-        <div class="col-sm">Do you have a dog? They are alright.</div>
-
+    <div class="card-body">
+        <a href="#" class="card-link">facebook.com/Jane_Doe</a><br>
+        <a href="#" class="card-link">twitter.com/Jane_Doe</a><br>
+        <a href="#" class="card-link">linkedin.com/Jane_Doe</a><br>
     </div>
 </div>
+                </div>
+</div>
+
+
+
+                <div class="col-md-4 col-lg-4 col-sm-12">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI__gguFXLKvKh-WtHkWuQry5ARCu5RTxSkPwEGyGkc4dwCwo_2Q" class="img-fluid">
+                        </div>
+
+                        <div class="card-body">
+                            <h4 class="card-title">Jaylen Doe</h4>
+                            <p class="card-text">
+
+                                Biography info - proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="card-link">facebook.com/Jaylen_Doe</a><br>
+                            <a href="#" class="card-link">twitter.com/Jaylen_Doe</a><br>
+                            <a href="#" class="card-link">linkedin.com/Jaylen_Doe</a><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
